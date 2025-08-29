@@ -4,6 +4,9 @@ public class MajorityElementFinder {
      * Finds the majority element in the array using Boyer-Moore Voting Algorithm.
      * Time Complexity: O(n)
      * Space Complexity: O(1)
+     * Intiution: We are taking one element and till it gets cancelled we are iterating like below:
+     * [1, 1, 1, 2, 2]
+     * 
      */
     public static int majorityElement(int[] nums) {
         int count = 0;
